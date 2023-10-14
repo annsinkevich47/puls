@@ -1,6 +1,7 @@
 @import 'base/_variables.scss';
 * {
     font-family: "Museo Sans", sans-serif;
+    box-sizing: border-box;
 }
 .container {
     max-width: 950px;
@@ -9,3 +10,5 @@
 @import 'blocks/_promo';
 @import 'blocks/_header';
 @import 'blocks/_buttons';
+@import 'blocks/_advantages';
+@import 'blocks/_media';
