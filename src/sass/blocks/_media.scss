@@ -18,6 +18,26 @@
             font-size: 18px;
         }
     }
+    .consultation {
+        .title_left {
+            font-size: 30px;
+            margin-left: 20px;
+        }
+        &__descr {
+            font-size: 17px;
+            margin-left: 20px;
+        }
+        input {
+            width: 90%;
+            margin-left: 20px;
+        }
+    }
+    .button {
+        &_submit {
+            width: 90%;
+            margin-left: 20px;
+        }
+    }
 }
 @media screen and (max-width: 767px) {
     .header {
@@ -103,6 +123,25 @@
         }
         
     }
+    .consultation {
+        min-height: 500px;
+        padding: 70px 0 20px 0;
+        .title_left {
+            font-size: 25px;
+        }
+        &__descr {
+            font-size: 17px;
+            margin-top: 30px;
+        }
+        input {
+            width: 90%;
+        }
+    }
+    .button {
+        &_submit {
+            width: 90%;
+        }
+    }
 }
 @media screen and (max-width: 575px) {
     .header {
@@ -166,6 +205,19 @@
         &__link {
             font-size: 12px;
             margin: 11px auto 0 auto;
+        }
+    }
+    .consultation {
+        padding-top: 40px;
+        .title_left {
+            text-align: center;
+            margin: 0 auto;
+            font-size: 20px;
+        }
+        &__descr {
+            font-size: 14px;
+            text-align: center;
+            margin: 25px auto 0 auto;
         }
     }
 }
