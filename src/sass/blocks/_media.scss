@@ -142,6 +142,11 @@
             width: 90%;
         }
     }
+    .carousel__inner {
+        img {
+            width: 85vw;
+        }
+    }
 }
 @media screen and (max-width: 575px) {
     .header {
