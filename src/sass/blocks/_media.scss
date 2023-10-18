@@ -2,6 +2,17 @@
     .advantages__count {
         justify-content: space-around;
     }
+    .carousel .slick-dots {
+        border: none;
+        height: 30px;
+        padding: 0;
+        margin: 20px 0;
+    }
+    .reviews {
+        &__item {
+            margin-left: 30px;
+        }
+    }
 }
 @media screen and (max-width: 991px) {
     .header {
@@ -36,6 +47,19 @@
         &_submit {
             width: 90%;
             margin-left: 20px;
+        }
+    }
+    .carousel .slick-dots {
+        margin-left: 30px;
+    }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+    }
+    .reviews {
+        &__text {
+            margin-right: 35px;
         }
     }
 }
@@ -147,6 +171,29 @@
             width: 85vw;
         }
     }
+    .carousel {
+        &__inner {
+            img {
+                margin-left: 30px;
+           }
+        }
+    }
+    .catalog {
+        &__tabs {
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+        &__tab {
+            &:nth-child(3) {
+                margin-top: 5px;
+            }
+        }
+    }
+    .reviews {
+        &__text {
+            margin-left: 30px;
+        }
+    }
 }
 @media screen and (max-width: 575px) {
     .header {
@@ -225,9 +272,25 @@
             margin: 25px auto 0 auto;
         }
     }
+    .catalog {
+        &__tab {
+            margin-top: 5px;
+        }
+    }
+    .reviews {
+        .title {
+            font-size: 27px;
+        }
+        &__item {
+            flex-direction: column;
+            margin: 0 auto;
+        }
+        &__image {
+            margin: 0 auto;
+        }
+        &__text {
+            margin: 30px auto 0 auto;
+            width: 90vw;
+        }
+    }
 }
-
-
-    
-
-

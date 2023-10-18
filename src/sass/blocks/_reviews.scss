@@ -1,0 +1,40 @@
+.reviews {
+    min-height: 1050px;
+    padding-bottom: 71px;
+    &__image {
+        width: 169px;
+        height: 169px;
+    }
+    &__item {
+        display: flex;
+        padding-top: 100px;
+        &:nth-child(1) {
+            padding-top: 62px;
+        }
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 61px;
+        width: 660px;
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+        line-height: 18px;
+    }
+    &__half-marathons {
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+        margin: 10px 0 19px 0;
+    }
+    &__review {
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+}
