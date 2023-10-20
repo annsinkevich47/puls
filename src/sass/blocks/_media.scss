@@ -299,4 +299,32 @@
             padding: 40px 15px 10px 15px;
         }
     }
+    .overlay {
+        .modal {
+            min-height: 300px;
+            width: 265px;
+            padding: 10px;
+            &__close {
+                right: -23px;
+                top: -26px;
+            }
+            &__subtitle {
+                font-size: 16px;
+                margin-top: 10px;
+            }
+            &__descr {
+                padding: 0 20px;
+                margin-top: 15px;
+            }
+        }
+        input {
+            padding: 0;
+            width: 245px;
+        }
+        .button_submit {
+            margin: 0;
+            width: 245px;
+            font-size: 14px;
+        } 
+    }
 }
